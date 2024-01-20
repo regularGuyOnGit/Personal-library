@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Library App</h1>
+    </div>
+<div class="main">
+    <div class="sidebar">
+        <form action="" method="">
+            <div class="title">
+                <label for="title">Title Of The Book.</label>
+          
+                <input required pattern="(.){0,50}" type="text" name="title" id="title"> <i class="	fa fa-remove"></i>
+            </div>
+            <div class="author">
+                <label for="author">Author Of The Book.</label>
+                <input required  title="Please enter a valid name" type="text" name="title" id="author"><i class="	fa fa-remove"></i>
+            </div>
+            <div class="pages">
+                <label for="pages">Total Number Of Pages.</label>
+                <input type="number" pattern="\d{0,10}" title="please enter a valid number" name="title" id="pages"><i class="	fa fa-remove"></i>
+            </div>
+            <div class="checkBox">
+                <label for="formCheck">Have You read the book?</label>
+                <input type="checkbox" name="check" id="formCheck">
+            </div>
+            <button id="sumbitBtn" type="sumbit">Add</button>
+        </form>
+    </div>
+
+<div class="content"></div>
+
+</div>
+   
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
